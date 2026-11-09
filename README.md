@@ -38,25 +38,31 @@ Mechanistic insight: OryqevaMPNN's designs shift toward charged residues (D, E, 
 
 ## Method
 
-The following objective is implemented in oryqeva_mpnn.py (Equations 4-6 of the manuscript).
+The following objective is implemented in `oryqeva_mpnn.py` (Equations 4-6 of the manuscript).
 
-Cross-context policy and reference contrasts (Equation 4):
+**Cross-context policy and reference contrasts (Equation 4):**
 
-delta_q = l_q_impl(y_w | x_w) - l_q_impl(y_l | x_l), for q in {theta, ref}
+```math
+\delta_q = \ell_q^{impl}(y_w \mid x_w) - \ell_q^{impl}(y_l \mid x_l), \quad q \in \{\theta, ref\}
+```
 
-Here x_w and x_l are the preferred and dispreferred structural inputs; they are not assumed identical, since pairs use distinct PDB paths and frequently differ in length.
+Here $x_w$ and $x_l$ are the preferred and dispreferred structural inputs; they are not assumed identical, since pairs use distinct PDB paths and frequently differ in length.
 
-Stage-1 preference-plus-supervised objective (Equation 5):
+**Stage-1 preference-plus-supervised objective (Equation 5):**
 
-L_stage1 = -log sigma[ beta * (delta_theta - delta_ref) ] - lambda * l_bar_theta(y_w | x_w)
+```math
+\mathcal{L}_{stage\,1} = -\log \sigma\big[\beta(\delta_\theta - \delta_{ref})\big] - \lambda \, \bar{\ell}_\theta(y_w \mid x_w)
+```
 
-where sigma is the logistic function, beta = 0.5, lambda = 1.0. The frozen reference weights are copied from the policy at the start of each 400-step round. This objective differs from standard DPO, which corresponds to lambda = 0; we refer to it as cross-context preference fine-tuning, since the two sides of a pair are not conditioned on the same backbone.
+where $\sigma$ is the logistic function, $\beta = 0.5$, $\lambda = 1.0$. The frozen reference weights are copied from the policy at the start of each 400-step round. This objective differs from standard DPO, which corresponds to $\lambda = 0$; we refer to it as *cross-context preference fine-tuning*, since the two sides of a pair are not conditioned on the same backbone.
 
-Stage-2 supervised refinement objective (Equation 6):
+**Stage-2 supervised refinement objective (Equation 6):**
 
-L_stage2 = -l_bar_theta(y | x), for y in D_preferred_unique
+```math
+\mathcal{L}_{stage\,2} = -\bar{\ell}_\theta(y \mid x), \quad y \in \mathcal{D}_{preferred}^{unique}
+```
 
-The final stage minimizes negative mean preferred-sequence log-probability over the de-duplicated preferred examples (1,200 steps, Adam lr = 2e-6).
+The final stage minimizes negative mean preferred-sequence log-probability over the de-duplicated preferred examples (1,200 steps, Adam lr = $2 \times 10^{-6}$).
 
 ## Installation
 
