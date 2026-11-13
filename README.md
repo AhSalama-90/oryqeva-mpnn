@@ -64,6 +64,16 @@ where $\sigma$ is the logistic function, $\beta = 0.5$, $\lambda = 1.0$. The fro
 
 The final stage minimizes negative mean preferred-sequence log-probability over the de-duplicated preferred examples (1,200 steps, Adam lr = $2 \times 10^{-6}$).
 
+## Availability and requirements
+
+- **Project name:** OryqevaMPNN
+- **Project home page:** https://github.com/AhSalama-90/oryqeva-mpnn
+- **Operating system(s):** Platform independent (developed and tested on Ubuntu 22.04 / WSL2)
+- **Programming language:** Python 3.10
+- **Other requirements:** PyTorch >= 2.0 with CUDA support; NumPy, SciPy, scikit-learn, pandas. AlphaFold2 evaluation requires ColabDesign/BindCraft in a separate environment.
+- **License:** MIT
+- **Any restrictions to use by non-academics:** None
+
 ## Installation
 
 git clone https://github.com/AhSalama-90/oryqeva-mpnn.git
@@ -77,16 +87,21 @@ python src/oryqeva_mpnn.py design --checkpoint checkpoints/oryqeva_mpnn_best.pt 
 
 ## Repository Structure
 
+```
 oryqeva-mpnn/
-  src/oryqeva_mpnn.py          train, sft-finetune, design commands
-  checkpoints/oryqeva_mpnn_best.pt   final checkpoint
-  data/train_pairs_clean.json  3,680 verified pairs
+  src/oryqeva_mpnn.py            train, sft-finetune, design commands
+  checkpoints/oryqeva_mpnn_best.pt   final checkpoint (DPO + SFT)
+  data/train_pairs_clean.json    3,680 verified preference pairs
   benchmark/
-    oryqeva_mpnn_results.json
-    proteinmpnn_results.json
+    oryqeva_mpnn_results.json    per-target i_pTM, final model
+    proteinmpnn_results.json     per-target i_pTM, baseline
+    target_structures/           21 held-out benchmark targets (PDB)
+    generated_sequences/         designed sequences, all four checkpoints
     leakage_audit.md
     dpo_methodology_note.md
     mechanistic_insights.md
+  scripts/evaluation/            AlphaFold2 scoring, one script per checkpoint
+```
 
 ## Limitations
 
