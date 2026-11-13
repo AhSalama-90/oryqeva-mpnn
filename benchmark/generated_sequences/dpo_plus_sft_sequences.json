@@ -1,6 +1,6 @@
 {
   "1CTX": {
-    "pdb_path": "/home/hmed_salama-90/target_pdbs_11clean_backbones/1CTX.pdb",
+    "pdb_path": "benchmark/target_structures/1CTX.pdb",
     "binder_chain": "A",
     "target_chain": "B",
     "sequences": [
@@ -12,7 +12,7 @@
     ]
   },
   "1N8Z": {
-    "pdb_path": "/home/hmed_salama-90/16targets_hallucinated_backbones/1N8Z.pdb",
+    "pdb_path": "benchmark/target_structures/1N8Z.pdb",
     "binder_chain": "B",
     "target_chain": "A",
     "sequences": [
@@ -24,7 +24,7 @@
     ]
   },
   "1XIW": {
-    "pdb_path": "/home/hmed_salama-90/16targets_hallucinated_backbones/1XIW.pdb",
+    "pdb_path": "benchmark/target_structures/1XIW.pdb",
     "binder_chain": "B",
     "target_chain": "A",
     "sequences": [
@@ -36,7 +36,7 @@
     ]
   },
   "1YHW": {
-    "pdb_path": "/home/hmed_salama-90/16targets_hallucinated_backbones/1YHW.pdb",
+    "pdb_path": "benchmark/target_structures/1YHW.pdb",
     "binder_chain": "B",
     "target_chain": "A",
     "sequences": [
@@ -48,7 +48,7 @@
     ]
   },
   "2GY7": {
-    "pdb_path": "/home/hmed_salama-90/16targets_hallucinated_backbones/2GY7.pdb",
+    "pdb_path": "benchmark/target_structures/2GY7.pdb",
     "binder_chain": "B",
     "target_chain": "A",
     "sequences": [
@@ -60,7 +60,7 @@
     ]
   },
   "2H62": {
-    "pdb_path": "/home/hmed_salama-90/target_pdbs_11clean_backbones/2H62.pdb",
+    "pdb_path": "benchmark/target_structures/2H62.pdb",
     "binder_chain": "B",
     "target_chain": "A",
     "sequences": [
@@ -72,7 +72,7 @@
     ]
   },
   "3MJG": {
-    "pdb_path": "/home/hmed_salama-90/16targets_hallucinated_backbones/3MJG.pdb",
+    "pdb_path": "benchmark/target_structures/3MJG.pdb",
     "binder_chain": "B",
     "target_chain": "A",
     "sequences": [
@@ -84,7 +84,7 @@
     ]
   },
   "3RRQ": {
-    "pdb_path": "/home/hmed_salama-90/16targets_hallucinated_backbones_v2/3RRQ.pdb",
+    "pdb_path": "benchmark/target_structures/3RRQ.pdb",
     "binder_chain": "B",
     "target_chain": "A",
     "sequences": [
@@ -96,7 +96,7 @@
     ]
   },
   "3UV1": {
-    "pdb_path": "/home/hmed_salama-90/16targets_hallucinated_backbones/3UV1.pdb",
+    "pdb_path": "benchmark/target_structures/3UV1.pdb",
     "binder_chain": "B",
     "target_chain": "A",
     "sequences": [
@@ -108,7 +108,7 @@
     ]
   },
   "4A88": {
-    "pdb_path": "/home/hmed_salama-90/16targets_hallucinated_backbones_v2/4A88.pdb",
+    "pdb_path": "benchmark/target_structures/4A88.pdb",
     "binder_chain": "B",
     "target_chain": "A",
     "sequences": [
@@ -120,7 +120,7 @@
     ]
   },
   "4FAO": {
-    "pdb_path": "/home/hmed_salama-90/16targets_hallucinated_backbones/4FAO.pdb",
+    "pdb_path": "benchmark/target_structures/4FAO.pdb",
     "binder_chain": "B",
     "target_chain": "A",
     "sequences": [
@@ -132,7 +132,7 @@
     ]
   },
   "4TQ7": {
-    "pdb_path": "/home/hmed_salama-90/16targets_hallucinated_backbones_v2/4TQ7.pdb",
+    "pdb_path": "benchmark/target_structures/4TQ7.pdb",
     "binder_chain": "B",
     "target_chain": "A",
     "sequences": [
@@ -144,7 +144,7 @@
     ]
   },
   "4hsa": {
-    "pdb_path": "/home/hmed_salama-90/16targets_hallucinated_backbones_v2/4hsa.pdb",
+    "pdb_path": "benchmark/target_structures/4hsa.pdb",
     "binder_chain": "B",
     "target_chain": "A",
     "sequences": [
@@ -156,7 +156,7 @@
     ]
   },
   "5FMV": {
-    "pdb_path": "/home/hmed_salama-90/16targets_hallucinated_backbones/5FMV.pdb",
+    "pdb_path": "benchmark/target_structures/5FMV.pdb",
     "binder_chain": "B",
     "target_chain": "A",
     "sequences": [
@@ -168,7 +168,7 @@
     ]
   },
   "5U8R": {
-    "pdb_path": "/home/hmed_salama-90/16targets_hallucinated_backbones_v2/5U8R.pdb",
+    "pdb_path": "benchmark/target_structures/5U8R.pdb",
     "binder_chain": "B",
     "target_chain": "A",
     "sequences": [
@@ -180,7 +180,7 @@
     ]
   },
   "5YNY": {
-    "pdb_path": "/home/hmed_salama-90/16targets_hallucinated_backbones_v2/5YNY.pdb",
+    "pdb_path": "benchmark/target_structures/5YNY.pdb",
     "binder_chain": "B",
     "target_chain": "A",
     "sequences": [
@@ -192,7 +192,7 @@
     ]
   },
   "5vli": {
-    "pdb_path": "/home/hmed_salama-90/16targets_hallucinated_backbones_v2/5vli.pdb",
+    "pdb_path": "benchmark/target_structures/5vli.pdb",
     "binder_chain": "B",
     "target_chain": "A",
     "sequences": [
@@ -204,7 +204,7 @@
     ]
   },
   "6QZK": {
-    "pdb_path": "/home/hmed_salama-90/16targets_hallucinated_backbones/6QZK.pdb",
+    "pdb_path": "benchmark/target_structures/6QZK.pdb",
     "binder_chain": "B",
     "target_chain": "A",
     "sequences": [
@@ -216,7 +216,7 @@
     ]
   },
   "7ALI": {
-    "pdb_path": "/home/hmed_salama-90/16targets_hallucinated_backbones_v2/7ALI.pdb",
+    "pdb_path": "benchmark/target_structures/7ALI.pdb",
     "binder_chain": "B",
     "target_chain": "A",
     "sequences": [
@@ -228,7 +228,7 @@
     ]
   },
   "7ML7": {
-    "pdb_path": "/home/hmed_salama-90/target_pdbs_11clean_backbones/7ML7.pdb",
+    "pdb_path": "benchmark/target_structures/7ML7.pdb",
     "binder_chain": "B",
     "target_chain": "A",
     "sequences": [
@@ -240,7 +240,7 @@
     ]
   },
   "7YRU": {
-    "pdb_path": "/home/hmed_salama-90/target_pdbs_11clean_backbones/7YRU.pdb",
+    "pdb_path": "benchmark/target_structures/7YRU.pdb",
     "binder_chain": "A",
     "target_chain": "B",
     "sequences": [

@@ -4,10 +4,10 @@ from colabdesign import mk_afdesign_model, clear_mem
 
 params_dir = os.path.expanduser('~/BindCraft/params')
 
-with open(os.path.expanduser('~/proteinmpnn_raw_sequences.json')) as f:
+with open('benchmark/generated_sequences/proteinmpnn_raw_sequences.json') as f:
     data = json.load(f)
 
-out_path = os.path.expanduser('~/proteinmpnn_raw_results.json')
+out_path = 'benchmark/proteinmpnn_raw_results.json'
 results = {}
 if os.path.exists(out_path):
     with open(out_path) as f:

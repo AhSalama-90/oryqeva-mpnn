@@ -4,10 +4,10 @@ from colabdesign import mk_afdesign_model, clear_mem
 
 params_dir = os.path.expanduser('~/BindCraft/params')
 
-with open(os.path.expanduser('~/dpo_plus_sft_sequences.json')) as f:
+with open('benchmark/generated_sequences/dpo_plus_sft_sequences.json') as f:
     data = json.load(f)
 
-out_path = os.path.expanduser('~/dpo_plus_sft_results.json')
+out_path = 'benchmark/dpo_plus_sft_results.json'
 results = {}
 if os.path.exists(out_path):
     with open(out_path) as f:
