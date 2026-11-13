@@ -100,7 +100,9 @@ oryqeva-mpnn/
     leakage_audit.md
     dpo_methodology_note.md
     mechanistic_insights.md
-  scripts/evaluation/            AlphaFold2 scoring, one script per checkpoint
+  scripts/
+    training/                    training scripts, one per model variant
+    evaluation/                  AlphaFold2 scoring, one per checkpoint
 ```
 
 ## Limitations
