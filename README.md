@@ -2,6 +2,11 @@
 
 **Data-Centric Direct Preference Optimization for Protein Binder Sequence Design**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24262323.svg)](https://doi.org/10.5281/zenodo.24262323)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C.svg)](https://pytorch.org/)
+
 > Status: Manuscript in preparation | Code: this repository | Area: Computational Biology / Protein Design / Preference Alignment
 > Keywords: inverse folding, protein binder design, Direct Preference Optimization, data curation, ProteinMPNN
 
@@ -111,7 +116,13 @@ All evaluation is computational (AlphaFold2 i_pTM); no wet-lab binding assays ha
 
 ## Citation
 
-Citation details will be added upon publication.
+If you use this software, please cite:
+
+    Salama, A., Elabed, S., & Omran, M. M. (2026). OryqevaMPNN: data-centric
+    preference optimization of ProteinMPNN for protein binder sequence design
+    [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.24262323
+
+A manuscript describing this work is in preparation; citation details will be updated upon publication.
 
 ## License
 

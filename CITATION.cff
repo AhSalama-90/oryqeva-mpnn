@@ -14,6 +14,7 @@ authors:
   - given-names: Mohamed Mostafa
     family-names: Omran
     affiliation: "Biotechnology and Genetic Engineering, Helwan National University, Cairo, Egypt; Chemistry Department, Faculty of Science, Capital University, Cairo, Egypt"
+doi: 10.5281/zenodo.24262323
 repository-code: "https://github.com/AhSalama-90/oryqeva-mpnn"
 license: MIT
 version: 1.0.0
