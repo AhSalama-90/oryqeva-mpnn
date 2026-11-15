@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "OryqevaMPNN"
+abstract: "Data-centric preference optimization of ProteinMPNN for protein binder sequence design."
+type: software
+authors:
+  - given-names: Ahmed
+    family-names: Salama
+    affiliation: "Biotechnology and Genetic Engineering, Helwan National University, Cairo, Egypt"
+    email: Ahmed.Mahdly.1230010@SCIENCE.hnu.edu.eg
+  - given-names: Seifeldin
+    family-names: Elabed
+    affiliation: "Biotechnology and Genetic Engineering, Helwan National University, Cairo, Egypt; Medical Biophysics Division, Physics Department, Faculty of Science, Capital University, Cairo, Egypt"
+  - given-names: Mohamed Mostafa
+    family-names: Omran
+    affiliation: "Biotechnology and Genetic Engineering, Helwan National University, Cairo, Egypt; Chemistry Department, Faculty of Science, Capital University, Cairo, Egypt"
+repository-code: "https://github.com/AhSalama-90/oryqeva-mpnn"
+license: MIT
+version: 1.0.0
+date-released: 2026-11-15
+keywords:
+  - protein design
+  - inverse folding
+  - preference optimization
+  - ProteinMPNN

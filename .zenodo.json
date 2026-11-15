@@ -1,0 +1,26 @@
+{
+  "title": "OryqevaMPNN: data-centric preference optimization of ProteinMPNN for protein binder sequence design",
+  "upload_type": "software",
+  "license": "mit",
+  "creators": [
+    {
+      "name": "Salama, Ahmed",
+      "affiliation": "Biotechnology and Genetic Engineering, Helwan National University, Cairo, Egypt"
+    },
+    {
+      "name": "Elabed, Seifeldin",
+      "affiliation": "Biotechnology and Genetic Engineering, Helwan National University, Cairo, Egypt; Medical Biophysics Division, Physics Department, Faculty of Science, Capital University, Cairo, Egypt"
+    },
+    {
+      "name": "Omran, Mohamed Mostafa",
+      "affiliation": "Biotechnology and Genetic Engineering, Helwan National University, Cairo, Egypt; Chemistry Department, Faculty of Science, Capital University, Cairo, Egypt"
+    }
+  ],
+  "keywords": [
+    "protein design",
+    "inverse folding",
+    "preference optimization",
+    "ProteinMPNN",
+    "AlphaFold2"
+  ]
+}
